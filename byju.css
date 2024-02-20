@@ -1,0 +1,723 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+nav{ 
+    height: 100px;
+    width: auto;
+    /* border:2px solid black;  */
+    background-color: #813588;
+    
+}
+#main{
+    height: 100px;
+    width: 80%;
+    margin-left:120px ;
+    /* border: 2px solid black; */
+    display: flex;
+   justify-content: space-evenly;
+   
+    
+}
+/* .play {
+    height: 20px;
+    width: 25px;
+  
+} */
+.navigation{
+    height: 80px;
+    width: 200px;
+    /* border: 2px solid red; */
+    font-size: 15px;
+    padding-top: 40px;
+    text-align: center;
+    color: yellow;
+   
+    
+      
+}
+.navigation:hover{
+    cursor: pointer;
+    color: red;
+}
+.input:hover{
+    cursor: pointer;
+    color: red;
+}
+#logo>img{
+    height:40px ;
+    width: 160px;
+    margin-top: -10px;
+   
+    
+}
+#logo{
+    left: 103px;
+    top: 20px;
+}
+
+#btn1{
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    color: yellow;
+    background-color: #813588;
+  
+    margin-top: -10px;
+    border-color:yellow ;
+    font-size: 15px;
+    cursor: pointer;
+
+    
+}
+#b1{
+    width: 100px;
+}
+
+
+#a1,#a2{
+   font-size: 30px;
+  
+   
+}
+#icon1,#icon2{
+    width: 75px;
+
+}
+
+
+body{
+    
+    /* background-image: url(byju_background.jpg); */
+    background-color: #813588;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article{
+    height: 140;
+    width: 85%;
+    /* border: 2px solid red; */
+    margin: 30px 120px;
+
+}
+img{
+    height: 140px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 15px;
+}
+aside{
+    height: 530px;
+    width: 550px;
+    border: 2px solid black;
+    margin-left: 860px;
+    margin-top: 55px;
+    border-radius: 30px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 5px;
+}
+#p3{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+#p1,#p2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+#b21{
+    height: 30px;
+    width: 250px;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#b22{
+    height: 30px;
+    width: 250px;
+    cursor: pointer;
+    margin-left: -2px;
+    
+}
+#placeholdermain1{
+    height: 40px;
+    width: 505px;
+    display: flex;
+}
+.input1,select{
+    height: 40px;
+    width: 505px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border-color: lightgray;
+}
+#f11{
+    height: 40px;
+    width: 405px;
+}
+#f12{
+    height: 40px;
+    width: 100px;
+    margin-left: -5px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(65, 65, 255),rgb(133, 52, 133));
+    
+}
+#f15{
+    height: 45px;
+    font-size: 25px;
+    color: white;
+    font-style: bold;
+    cursor: pointer;
+  background-image: linear-gradient(to right, rgb(212, 212, 88),rgb(255, 63, 63));
+}
+#srk1{
+    height: 650px;
+    width: 800px;
+    /* border: 2px solid red; */
+    margin-left: -850px;
+    margin-top: -500px;
+}
+#srk2{
+    height: 650px;
+    width: 800px;
+}
+#white1{
+    height: 4000px;
+    width: auto;
+    /* border: 2px solid red; */
+    background-color: white;
+  
+}
+#white1a{
+    height: 150px;
+    width: 500px;
+    /* border: 2px solid red; */
+    margin: 10px auto;
+    word-spacing: 5px;
+    text-align: center;
+    margin-top: 50px;
+}
+#white1b{
+    word-spacing: 15px;
+}
+.picture1{
+    height: 300px;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: 15px 150px;
+    box-shadow: 0px 0px 20px rgb(88, 88, 88);
+    border-radius: 10px;
+    position: relative;
+
+}
+.picture1x{
+    height: 300px;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin: 15px 150px;
+    box-shadow: 0px 0px 20px rgb(88, 88, 88);
+    border-radius: 10px;
+    position: absolute;
+
+}
+#picture1a{
+    height: 40px;
+    width: 110px;
+    background-image: linear-gradient(to right,rgb(65, 65, 255),rgb(133, 52, 133));
+    color: white;
+    margin: 0px auto;
+    border-radius: 8px;
+    padding-top: 10px;
+    text-align: center;
+    
+    /* position: relative; */
+}
+#pic1{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    background-size: cover;
+    margin-left:50px ;
+    
+}
+#pic1a{
+    height: 200px;
+    width: 200px;
+}
+#pic1b,#pic1d,#pic1e{
+    height:50px ;
+    width: 160px;
+    margin-top: -10px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 80px;
+    left: 300px;
+}
+#pic1c{
+    height: 60px;
+    width: 160px;
+}
+#pic1d{
+    top: 130px;
+    left: 290px;
+    width: 210px;
+    font-size: 19px;
+    /* font-weight: 50px; */
+}
+#pic1e{
+    top: 60px;
+    left: 50px;
+    height: 30px;
+}
+
+
+/* yahase */
+
+#pic2{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    background-size: cover;
+    position: relative; 
+    top: -200px;
+    left: 615px;
+    
+}
+#pic2a{
+    height: 200px;
+    width: 200px;
+}
+#pic2b,#pic2d,#pic2e{
+    height:70px ;
+    width: 160px;
+    margin-top: -10px;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 80px;
+    left: 930px;
+}
+#pic2c{
+    height: 55px;
+    width: 150px;
+}
+#pic2d{
+    top: 140px;
+    left: 880px;
+    width: 210px;
+    font-size: 19px;
+    text-align: center;
+    /* font-weight: 50px; */
+}
+#pic2e{
+    top: 80px;
+    left: 50px;
+    height: 30px;
+}
+.pic2g{
+    position: absolute;
+    height: 50px;
+    width: 190px;
+    top: 240px;
+    left: 505px;
+    background-image: linear-gradient(to right, rgb(212, 212, 88),rgb(255, 63, 63));
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+
+}
+
+/* 2nd box css */
+
+
+#pic3{
+    height: 130px;
+    width: 230px;
+    /* border: 2px solid red; */
+    background-size: cover;
+    position: absolute; 
+    top: 50px;
+    left: 100px;
+
+}
+#pic3a{
+    position: absolute;
+    top: 5px;
+    
+}
+#pic3b{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    font-size: 18px;
+}
+#pic3c,#pic5c{
+    position: absolute;
+    top: 235px;
+    left: 130px;
+    
+
+}
+#pic4{
+    top: 55px;
+    left: 510px;
+    position: absolute;
+}
+#pic5{
+    
+    left: 830px;
+    
+    height: 130px;
+    width: 230px;
+    /* border: 2px solid red; */
+    background-size: cover;
+    position: absolute; 
+    top: 50px;
+   
+}
+#pic5b{
+    position: absolute;
+    top: 200px;
+    left: 750px;
+    font-size: 18px;
+
+}
+#pic5c{
+  
+    left: 850px;
+   
+}
+
+/* third box css */
+.picture2{
+    height: 340px;
+    width: auto;
+    /* border: 2px solid red; */
+    position: relative;
+    /* display: flex;
+    justify-content: center; */
+
+}
+
+#pic6a,#pic6b{
+    height: 310px;
+    width: 39%;
+}
+#pic6b{
+    height: 310px;
+    width: 39%;
+    left: 620px;
+
+}
+#h1a{
+    height: 50px;
+    width: 500px;
+    /* border: 2px solid red; */
+    margin: 100px auto;
+    padding-top: 0px;
+}
+
+/* boxing wala div */
+.box3{
+    height: 400px;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box3a{
+    height: 400px;
+    width: 300px;
+    /* border: 2px solid red; */
+
+}
+.box3a1{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid red; */
+    
+    background-size: cover;
+    
+}
+#box3a11{
+    background-image: url(byju11a.png);
+}
+#box3a12{
+    background-image: url(byju11b.png);
+}
+#box3a13{
+    background-image: url(byju11c.png);
+}
+
+.box3a2{
+    height: 100px;
+    width: 300px;
+    /* border: 2px solid red; */
+
+}
+.box3a2{
+    font-size: 30px;
+    text-align: center;
+}
+
+#h1b{
+    height: 100px;
+    width: 600px;
+    margin: 40px auto;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* icons starts */
+
+.icons{
+    height: 150px;
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-1{
+    height: 150px;
+    width: 200px;
+    /* border: 2px solid red; */
+
+}
+.icon-2{
+    height: 50px;
+    width: 200px;
+    /* border: 2px solid red; */
+    font-size: 50px;
+    text-align: center;
+    color: #813588;
+    
+}
+.icon-2-1{
+    font-size: 30px;
+    color: #813588;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+}
+.icon-2-2{
+  
+    text-align: center;
+    font-size: 20px;
+}
+
+/* icons ke niche wala part */
+
+#d1{
+    background-image: url(Devananda.png);
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+}
+#s1{
+    background-image: url(Souradip.png);
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+}
+#sp1{
+    background-image: url(suraj-peela.png);
+    height: 200px;
+    width: 200px;
+    margin: 40px auto;
+}
+.first1{
+    height: 60px;
+    width: auto;
+    /* border: 2px solid red; */
+    font-size: 17px;
+    text-align: center;
+}
+.bold1{
+    height: 30px;
+    width: auto;
+    /* border: 2px solid red; */
+    text-align: center;
+    font-weight: bold;
+}
+.bold2{
+    text-align: center;
+}
+#picture1ab{
+    height: 40px;
+    width: 300px;
+    background-image: linear-gradient(to right,rgb(65, 65, 255),rgb(133, 52, 133));
+    color: white;
+    margin: 90px auto;
+    border-radius: 8px;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.x1{
+    height: 100px;
+    width: 650px;
+    margin: 35px auto;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+#x1a{
+    height: 100px;
+    width: 61%;
+}
+#x1b{
+    /* border: 2px solid red; */
+    font-size: 30px;
+    font-weight: bold;
+}
+.g1{
+    height: 420px;
+    width: 80%;
+    /* border: 2px solid red;
+     */
+    margin: 15px 150px;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.g1a{
+    height: 420px;
+    width: 250px;
+    /* border: 2px solid red; */
+    /* margin: 0px 80px; */
+    box-shadow: 0px 0px 20px rgb(88, 88, 88);
+    border-radius: 10px;
+   
+
+    
+}
+.g1a1{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    margin: 20px 20px;
+    border-radius: 5px;
+}
+#l1{
+    background-image: url(last1.jpg);
+    background-size: cover;
+    
+}
+#l2{
+    background-image: url(last2.jpg);
+    background-size: cover;
+
+    
+}
+#l3{
+    background-image: url(last3.png);
+    background-size: cover;
+    
+}
+#l4{
+    background-image: url(last4.jpg);
+    background-size: cover;
+    
+}
+.g1a2{
+    height: 30px;
+    width: 110px;
+    /* border: 2px solid red; */
+    margin: 20px 20px;
+    color: #813588;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.g1a3{
+    height: 50px;
+    width: 210px;
+    /* border: 2px solid red; */
+    margin: 20px 20px;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.g1a4{
+    height: 30px;
+    width: 100px;
+    /* border: 2px solid red; */
+    margin: 20px 20px;
+    color: #813588;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.button1{
+  
+    height: 50px;
+    width: 190px;
+    margin: 20px 650px;
+    background-image: linear-gradient(to right, rgb(212, 212, 88),rgb(255, 63, 63));
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+}
+footer{
+    height: 900px;
+    width: auto;
+    background-color: #813588;
+    display: flex;
+    justify-content: center;
+}
+
+.footer1{
+    height: 600px;
+    width: 200px;
+    /* border: 1px solid red; */
+    
+}
+.footer1a{
+    height: 50px;
+    color: yellow;
+    font-size: 14px;
+    /* border: 2px solid red; */
+}
+.footer1b{
+    height: 480px;
+    width: 150px;
+    color: white;
+    /* border: 1px solid red; */
+}
+.footer1b>p{
+    height: 30px;
+    width: 200px;
+    font-size: 10px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    
+} 
+.footer1b> p:hover{
+    cursor: pointer;
+    color: red
+
+}
+.div1a{
+    height: 200px;
+    width: 200px;
+    margin: 800px 5px;
+
+}

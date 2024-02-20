@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+ 
+}
+#main{
+    height: 100px;
+    width: 80%;
+    margin-left:120px ;
+    /* border: 2px solid black; */
+    display: flex;
+   justify-content: space-evenly;
+   
+    
+}
+/* .play {
+    height: 20px;
+    width: 25px;
+  
+} */
+.navigation{
+    height: 80px;
+    width: 200px;
+    /* border: 2px solid red; */
+    font-size: 15px;
+    padding-top: 40px;
+    text-align: center;
+    color: yellow;
+   
+    
+      
+}
+.navigation:hover{
+    cursor: pointer;
+    color: red;
+}
+.input:hover{
+    cursor: pointer;
+    color: red;
+}
+#logo>img{
+    height:40px ;
+    width: 160px;
+    margin-top: -10px;
+   
+    
+}
+#logo{
+    left: 103px;
+    top: 20px;
+}
+
+#btn1{
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    color: yellow;
+    background-color: #813588;
+  
+    margin-top: -10px;
+    border-color:yellow ;
+    font-size: 15px;
+    cursor: pointer;
+
+    
+}
+#b1{
+    width: 100px;
+}
+
+
+#a1,#a2{
+   font-size: 30px;
+  
+   
+}
+#icon1,#icon2{
+    width: 75px;
+
+}
+nav{
+    background-color: #813588;
+}
+
+.login{
+    height: 50px;
+    width: 200px;
+    border: 2px solid red;
+    font-size: 35px;
+    margin: 20px auto;
+    font-weight: bold;
+    padding-top: 4px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+section{
+    height: 700px;
+    width: 500px;
+    
+}
+.cancel_button img{
+   
+    height: 30px;
+    width: 30px;
+    margin-right: 0px;
+}
+
